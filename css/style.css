@@ -4,17 +4,27 @@ body {
 	font-family: 'Roboto ', Helvetica, sans-serif;
 	text-align: center;
 	background: #F9F9F9;
-	margin: 96px 0;
+}
+
+#container {
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
 }
 
 h1 {
 	font-family: 'Roboto Slab', Helvetica, sans-serif;
-	font-size: 24px;
+	font-size: 32px;
+	position: fixed;
+	left: 50%;
+	top: 32%;
+	margin: 0 0 0 -50%;
+	width: 100%;
 }
 
 a {
 	text-decoration: none;
-	color: #666;
+	color: #888;
 	font-size: 11px;
 }
 
@@ -25,11 +35,15 @@ a:hover {
 
 ul {
 	list-style-type: none;
-	margin: 32px 0;
+	margin: 60px 0 60px -50%;
 	padding: 0;
+	position: fixed;
+	width:100%;
+	left: 50%;
+	bottom: 0;
 }
 
 ul li {
 	display: inline;
-	margin: 0 12px;
+	margin: 0 14px;
 }
