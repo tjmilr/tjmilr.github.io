@@ -3,7 +3,12 @@
 body {
 	font-family: 'Roboto ', Helvetica, sans-serif;
 	text-align: center;
-	background: #F9F9F9;
+	background: #141516;
+	/*background-image: url("../img/bg.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top; */
 }
 
 #container {
@@ -15,6 +20,7 @@ body {
 h1 {
 	font-family: 'Roboto Slab', Helvetica, sans-serif;
 	font-size: 32px;
+	color: #DDD;
 	position: fixed;
 	left: 50%;
 	top: 40%;
@@ -24,13 +30,13 @@ h1 {
 
 a {
 	text-decoration: none;
-	color: #888;
+	color: #777;
 	font-size: 11px;
 }
 
 a:hover {
 	text-decoration: underline;
-	color: #333;
+	color: #DDD;
 }
 
 ul {
@@ -55,6 +61,8 @@ ul li {
 }
 
 @media only screen and (max-width: 600px) {
+
+	
 	h1 {
 		font-size: 40px;
 		top: 30%;
