@@ -14,7 +14,7 @@ body {
 
 h1 {
 	font-family: 'Roboto Slab', Helvetica, sans-serif;
-	font-size: 24px;
+	font-size: 32px;
 	position: fixed;
 	left: 50%;
 	top: 40%;
@@ -35,17 +35,19 @@ a:hover {
 
 ul {
 	list-style-type: none;
-	margin: 36px 0 36px -50%;
+	margin: 36px 0 36px -200px;
 	padding: 0;
 	position: fixed;
-	width:100%;
+	width:400px;
 	left: 50%;
 	bottom: 0;
+
 }
 
 ul li {
-	display: inline;
-	margin: 0 14px;
+	display: block;
+	float:left;
+	width: 20%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -56,11 +58,27 @@ ul li {
 	h1 {
 		font-size: 40px;
 		top: 30%;
+		width: 80%;
+		margin: 0 0 0 -40%;
 	}
 	
 	a {
 		text-decoration: none;
 		color: #888;
 		font-size: 12px;
+	}
+	ul {
+		list-style-type: none;
+		margin: 36px 0 36px -50%;
+		padding: 0;
+		position: fixed;
+		width:100%;
+		left: 50%;
+		bottom: 0;
+	}
+	ul li {
+		display: block;
+		float:left;
+		width: 20%;
 	}
 }
