@@ -1,25 +1,31 @@
 @import url('reset.css');
 
 body {
-	font-family: 'Roboto', Helvetica, sans-serif;
+	font-family: 'Roboto ', Helvetica, sans-serif;
 	text-align: center;
-	background: #F5F5F5;
+	background: #F9F9F9;
+	margin: 96px 0;
+}
+
+h1 {
+	font-family: 'Roboto Slab', Helvetica, sans-serif;
+	font-size: 24px;
 }
 
 a {
 	text-decoration: none;
 	color: #666;
-	font-size: 12px;
+	font-size: 11px;
 }
 
 a:hover {
 	text-decoration: underline;
-	color: #444;
+	color: #333;
 }
 
 ul {
 	list-style-type: none;
-	margin: 48px 0;
+	margin: 32px 0;
 	padding: 0;
 }
 
