@@ -5,11 +5,13 @@ body {
 	text-align: center;
 	background: #141516;
 	color: #FFF;
-	/*background-image: url("../img/bg.jpg");
+	background-image: url("../img/bg.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top; */
+    background-position: top;
+    background-blend-mode: overlay;
+	
 }
 
 #container {
@@ -74,6 +76,11 @@ ul.links li a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+	
+	body {
+		background-size: 240%;
+	}
+		
 	header {
 		top: 30%;
 		width: 80%;
