@@ -79,6 +79,7 @@ ul.links li a:hover {
 	
 	body {
 		background-size: 240%;
+		background-attachment: fixed;
 	}
 		
 	header {
