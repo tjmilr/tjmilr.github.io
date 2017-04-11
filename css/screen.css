@@ -3,7 +3,7 @@
 body {
 	font-family: 'Roboto', Helvetica, sans-serif;
 	text-align: center;
-	background: #141516;
+	background-color: #101010;
 	color: #FFF;
 	background-image: url("../img/bg.jpg");
 	background-size: 100%;
@@ -21,10 +21,27 @@ svg {
 
 a svg {
 	fill: #777;
+	transition: all .2s ease-in-out;
+}
+
+a:hover svg {
+	transform: scale(1.1);
+}
+
+a.dribbble:hover svg {
+	fill: #E11869;
 }
 	
-a:hover svg {
-	fill: #FFF;
+a.instagram:hover svg {
+	fill: #E16718;
+}
+	
+a.linkedin:hover svg {
+	fill: #1876E1;
+}
+	
+a.gmail:hover svg {
+	fill: #E12418;
 }
 
 #container {
