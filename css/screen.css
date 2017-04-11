@@ -14,16 +14,17 @@ body {
 	
 }
 
-a svg {
-	fill: #777;
+svg {
 	width: 20px;
 	height: 20px;
+}
+
+a svg {
+	fill: #777;
 }
 	
 a:hover svg {
 	fill: #FFF;
-	width: 20px;
-	height: 20px;
 }
 
 #container {
@@ -80,7 +81,8 @@ ul.links li {
 @media only screen and (max-width: 600px) {
 	
 	body {
-		background-size: 240%;
+		background-image: url("../img/bg_mobile.jpg");
+		background-size: 190%;
 		background-attachment: fixed;
 	}
 		
