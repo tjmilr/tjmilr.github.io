@@ -32,6 +32,7 @@ h1 {
 	font-family: 'Roboto Slab', Helvetica, sans-serif;
 	font-size: 32px;
 	color: #DDD;
+	letter-spacing: 0px;
 }
 
 h2 {
@@ -63,7 +64,7 @@ ul.links li a {
 	letter-spacing: 2px;
 	text-decoration: none;
 	color: #777;
-	font-size: 9px;
+	font-size: 10px;
 	text-transform: uppercase;
 }
 
