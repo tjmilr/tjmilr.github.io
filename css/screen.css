@@ -14,6 +14,18 @@ body {
 	
 }
 
+a svg {
+	fill: #777;
+	width: 20px;
+	height: 20px;
+}
+	
+a:hover svg {
+	fill: #FFF;
+	width: 20px;
+	height: 20px;
+}
+
 #container {
 	margin: 0 auto;
 	width: 800px;
@@ -45,11 +57,11 @@ h2 {
 
 ul.links {
 	list-style-type: none;
-	margin: 36px 0 36px -200px;
+	margin: 36px 0 36px -150px;
 	padding: 0;
 	position: fixed;
 	text-align: center;
-	width:400px;
+	width:300px;
 	left: 50%;
 	bottom: 0;
 }
@@ -58,19 +70,6 @@ ul.links li {
 	display: block;
 	float:left;
 	width: 25%;
-}
-
-ul.links li a {
-	letter-spacing: 1px;
-	text-decoration: none;
-	color: #777;
-	font-size: 10px;
-	text-transform: uppercase;
-}
-
-ul.links li a:hover {
-	text-decoration: underline;
-	color: #DDD;
 }
 
 
@@ -97,10 +96,10 @@ ul.links li a:hover {
 
 	ul.links {
 		list-style-type: none;
-		margin: 36px 0 36px -45%;
+		margin: 36px 0 36px -40%;
 		padding: 0;
 		position: fixed;
-		width:90%;
+		width:80%;
 		left: 50%;
 		bottom: 0;
 	}
