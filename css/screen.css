@@ -15,12 +15,12 @@ body {
 }
 
 svg {
-	width: 20px;
-	height: 20px;
+	width:24px;
+	height:24px;
 }
 
 a svg {
-	fill: #777;
+	fill: #545454;
 	transition: all .2s ease-in-out;
 }
 
@@ -68,7 +68,7 @@ h1 {
 h2 {
 	font-family: 'Roboto Condensed', sans-serif;
 	margin: 18px 0;
-	color:#777;
+	color:#606060;
 	font-size: 18px;
 	font-weight: 400;
 }
@@ -122,5 +122,12 @@ ul.links li {
 		left: 50%;
 		bottom: 0;
 	}
+	
+	a svg {
+		transition: none;
+	}
 
+	a:hover svg {
+		transform: scale(1);
+	}
 }
